@@ -9,12 +9,12 @@
 
 <div class="side-chat">
  <% current_user.rooms.each do |room| %>
-    <div class="chat">
-      <div class="chat-btn">
-        <a href="#"><%=techroom></a>
+    <div class="room">
+      <div class="room-name">
+        <a href="#"><%= room.name %></a>
       </div>
     </div>
- <% end %>
+  <% end %>
 </div>
 
   
