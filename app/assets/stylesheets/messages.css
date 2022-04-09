@@ -40,6 +40,9 @@
   text-decoration: none;
   color: white;
 }
+.chat{
+  width: calc(100vw - 300px);
+}
 .header-chat{
   height: 100px;
   background-color: #FFFFFF;
